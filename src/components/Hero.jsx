@@ -41,15 +41,7 @@ function Hero() {
                     </motion.p>
                 </div>
             </div>
-            <div className='w-full lg:w-1/2 lg:h-3'>
-                <div className='flex justify-center h-96'>
-                    <motion.img 
-                        initial={{x:100, opacity:0}}
-                        animate={{x:0, opacity:1}}
-                        transition={{duration:1, delay:1.2}}
-                        src={profilePic} alt="Nitesh Rai" />
-                </div>
-            </div>
+
         </div>
     </div>
   )
